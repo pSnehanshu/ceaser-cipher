@@ -4,7 +4,7 @@ module.exports = ceaser;
  * Get the ceaser cipher of any text
  * @param {String} text The string to encrypt
  * @param {Number} key The ceaser key. Default = 5
- * @returns {String}
+ * @returns String
  */
 function ceaser (text = '', key = 5) {
     let ceaserText = text.split('').map(t => getCeaser(t, key));
