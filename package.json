@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Snehanshu Phukon",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
 }
